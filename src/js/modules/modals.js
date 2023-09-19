@@ -1,6 +1,3 @@
-// import { bind } from "core-js/core/function";
-// import "core-js";
-
 const modals = () => {
   function bindModal(triggerSelector, modalSelector, closeSelector) {
     const trigger = document.querySelectorAll(triggerSelector),
@@ -47,7 +44,7 @@ const modals = () => {
     ".popup_engineer .popup_close"
   );
   bindModal(".phone_link", ".popup", ".popup .popup_close");
-  showModalByTime(".popup", 10000);
+  // showModalByTime(".popup", 60000);
 };
 
 export default modals;
